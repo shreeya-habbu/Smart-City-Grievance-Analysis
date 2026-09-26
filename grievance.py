@@ -514,17 +514,39 @@ class GrievancePage(ctk.CTkFrame):
         # -----------------------------
 
         if analysis is None:
-
-            analysis = analyze_grievance(
-                title,
-                description
-            )
-
+            analysis = analyze_grievance(title, description)
             ai_source = "Fallback AI"
-
         else:
-
             ai_source = "Gemini AI"
+
+        # Validate obvious category keywords
+        combined_text = f"{title} {description}".lower()
+
+        if any(word in combined_text for word in [
+            "water", "pipeline", "water leakage", "water supply",
+            "water shortage", "dirty water", "sewage", "sewer",
+            "drainage"
+        ]):
+            analysis["category"] = "Water & Sanitation"
+
+        elif any(word in combined_text for word in [
+            "garbage", "waste", "trash", "litter", "dumping",
+            "dustbin", "waste collection", "solid waste",
+            "overflowing garbage"
+        ]):
+            analysis["category"] = "Environment"
+
+        elif any(word in combined_text for word in [
+            "streetlight", "street light", "electricity", "power",
+            "transformer", "electric wire", "lamp", "blackout"
+        ]):
+            analysis["category"] = "Electricity & Lighting"
+
+        elif any(word in combined_text for word in [
+            "pothole", "road", "traffic", "footpath", "sidewalk",
+            "parking", "bus stop", "bridge"
+        ]):
+            analysis["category"] = "Roads & Transport"
 
         # -----------------------------
         # DATABASE

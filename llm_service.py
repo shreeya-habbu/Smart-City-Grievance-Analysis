@@ -72,6 +72,13 @@ Use these categories:
 - Environment
 - Public Services
 
+IMPORTANT CLASSIFICATION RULES:
+- If the grievance is mainly about water supply, water leakage, pipeline leakage, dirty water, sewage, drainage, sewer, or water shortage, classify it as Water & Sanitation.
+- If the grievance is mainly about garbage, waste, litter, dumping, dustbins, waste collection, overflowing garbage, or pollution caused by waste, classify it as Environment.
+- If the grievance is mainly about electricity, power failure, streetlights, lamps, transformers, or electrical wires, classify it as Electricity & Lighting.
+- If the grievance is mainly about potholes, roads, traffic, footpaths, parking, buses, bridges, or transport, classify it as Roads & Transport.
+- If an explicit keyword clearly identifies a category, prioritize that category over a general environmental or public-service interpretation.
+
 IMPORTANT CATEGORY RULES:
 
 - Garbage, waste, trash, litter, dumping, dustbins,
