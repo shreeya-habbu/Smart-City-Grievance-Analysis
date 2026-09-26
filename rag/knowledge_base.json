@@ -1,0 +1,62 @@
+[
+    {
+        "id": "GRIEVANCE_001",
+        "topic": "General Grievance Handling",
+        "category": "Public Services",
+        "content": "A citizen grievance should contain enough information for the concerned authority to understand the issue and take appropriate action. Important information may include the problem description, location, contact information and relevant supporting details."
+    },
+    {
+        "id": "GRIEVANCE_002",
+        "topic": "Grievance Tracking",
+        "category": "Public Services",
+        "content": "Public grievance systems can provide a unique registration or grievance ID so that citizens can track the status of their complaint. The Smart City Grievance Analysis Tool also assigns a unique grievance ID after successful submission."
+    },
+    {
+        "id": "GRIEVANCE_003",
+        "topic": "Grievance Routing",
+        "category": "Public Services",
+        "content": "A grievance should be directed to the authority or department responsible for the concerned service. AI classification can assist administrators by identifying the likely category and priority, while the final administrative decision remains with a human authority."
+    },
+    {
+        "id": "GRIEVANCE_004",
+        "topic": "Roads and Transport",
+        "category": "Roads & Transport",
+        "content": "Road and transport grievances may include potholes, damaged roads, unsafe traffic conditions, damaged footpaths, blocked roads, missing road signs and problems affecting public transport areas. Location details are important for investigation and resolution."
+    },
+    {
+        "id": "GRIEVANCE_005",
+        "topic": "Water and Sanitation",
+        "category": "Water & Sanitation",
+        "content": "Water and sanitation grievances may include water supply interruptions, suspected water contamination, leakage, drainage problems, sewage overflow and waste-water related issues. Such complaints should contain the affected location and a clear description of the problem."
+    },
+    {
+        "id": "GRIEVANCE_006",
+        "topic": "Electricity and Lighting",
+        "category": "Electricity & Lighting",
+        "content": "Electricity and public-lighting grievances may include non-functional streetlights, damaged electrical infrastructure, repeated power-related problems in public areas and unsafe lighting conditions. Exact location information can help the responsible authority investigate the issue."
+    },
+    {
+        "id": "GRIEVANCE_007",
+        "topic": "Environment and Waste",
+        "category": "Environment",
+        "content": "Environmental grievances may include improper waste disposal, garbage accumulation, illegal dumping, pollution, overflowing public waste bins and other conditions affecting the cleanliness or environmental quality of a community."
+    },
+    {
+        "id": "GRIEVANCE_008",
+        "topic": "Public Safety",
+        "category": "Public Safety",
+        "content": "Public safety grievances may involve dangerous public infrastructure, unsafe roads, exposed hazards, blocked emergency access or other conditions that may create a risk to citizens. Safety-related information should be clearly documented for human review."
+    },
+    {
+        "id": "GRIEVANCE_009",
+        "topic": "AI Human Oversight",
+        "category": "Responsible AI",
+        "content": "AI-generated grievance classifications and recommendations should support administrative decision-making rather than replace human authority. Administrators should review AI outputs, especially for high-impact or safety-related complaints."
+    },
+    {
+        "id": "GRIEVANCE_010",
+        "topic": "Responsible AI and Privacy",
+        "category": "Responsible AI",
+        "content": "A grievance analysis system should minimize unnecessary personal information, protect citizen data, provide understandable AI outputs and avoid making unsupported assumptions. AI analysis should be treated as decision support and should be reviewable by authorized personnel."
+    }
+]
